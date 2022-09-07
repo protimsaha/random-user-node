@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "gender": "Male",
+        "name": "Mohammad Tasib",
+        "contact": 88225045,
+        "address": "Chittagong",
+        "photoUrl": "https://randomuser.me/api/portraits/men/34.jpg"
+    },
+    {
+        "id": 2,
+        "gender": "Male",
+        "name": "Shahjalal Rafi",
+        "contact": 88244214,
+        "address": "Chittagong",
+        "photoUrl": "https://randomuser.me/api/portraits/men/42.jpg"
+    },
+    {
+        "id": 3,
+        "gender": "Female",
+        "name": "Samiha Islam",
+        "contact": "01718477062",
+        "address": "Chittagong",
+        "photoUrl": "https://randomuser.me/api/portraits/women/41.jpg"
+    },
+    {
+        "id": 4,
+        "gender": "Male",
+        "name": "Sha Aziz Rakib",
+        "contact": "01718477030",
+        "address": "Chittagong",
+        "photoUrl": "https://randomuser.me/api/portraits/men/46.jpg"
+    },
+    {
+        "id": 5,
+        "gender": "Female",
+        "name": "Soraya Fatema Tuha",
+        "contact": "01818477034",
+        "address": "Chittagong",
+        "photoUrl": "https://randomuser.me/api/portraits/women/21.jpg"
+    }
+]

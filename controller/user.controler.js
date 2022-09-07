@@ -8,8 +8,8 @@ module.exports.getAllUser = (req, res) => {
 }
 
 module.exports.getARandomUser = (req, res) => {
-    console.log(userArrayParsed[Math.floor(Math.random() * userArrayParsed.length)])
-    res.send('hello')
+    const randomUser = (userArrayParsed[Math.floor(Math.random() * userArrayParsed.length)])
+    res.send(randomUser)
 }
 module.exports.saveAUser = (req, res) => {
     const userData = req.body;
@@ -71,7 +71,7 @@ module.exports.updateMultipleUser = (req, res) => {
     const idArray = idString.split(",");
 
     const data = req.body;
-    console.log(idArray);
+
 
     if (idArray.length != data.length) {
         res.send("Can't Assign");
